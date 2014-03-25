@@ -68,28 +68,28 @@ describe Group do
     let(:dejuss) {{title: "djesus!!!!!", body: "The dude does not approve", user_id: dudeObject.id, group_id: bowling.id }}
     let!(:djesuspost) {Post.create(dejuss)}
 
-        let (:acomment) {{user_id: dudeObject.id, post_id:djesuspost.id, comment: "DJesus sat boucks wling"}}
-        let! (:dudecomment) {Comment.create(acomment)}
-         let (:bcomment) {{user_id: dudeObject.id, post_id:djesuspost.id, comment: "DJesus sucks at bowling"}}
-        let! (:dudeacomment) {Comment.create(bcomment)}
-         let (:ccomment) {{user_id: dudeObject.id, post_id:djesuspost.id, comment: "DJesus suc owbks atling"}}
-        let! (:dudebcomment) {Comment.create(ccomment)}
+    let (:acomment) {{user_id: dudeObject.id, post_id:djesuspost.id, comment: "DJesus sat boucks wling"}}
+    let! (:dudecomment) {Comment.create(acomment)}
+    let (:bcomment) {{user_id: dudeObject.id, post_id:djesuspost.id, comment: "DJesus sucks at bowling"}}
+    let! (:dudeacomment) {Comment.create(bcomment)}
+    let (:ccomment) {{user_id: dudeObject.id, post_id:djesuspost.id, comment: "DJesus suc owbks atling"}}
+    let! (:dudebcomment) {Comment.create(ccomment)}
 
 
 
     let(:hardcode) {{title: "hard code", body: "The dude does not approve", user_id: dudeObject.id, group_id: bowling.id }}
     let!(:hcpost) {Post.create(yeah)}
-        let (:dcomment) {{user_id: dudeObject.id, post_id:hcpost.id, comment: "DJesus sucks aling"}}
-        let! (:hccomment1) {Comment.create(dcomment)}
-         let (:ecomment) {{user_id: dudeObject.id, post_id:hcpost.id, comment: "DJesus su bowling"}}
-        let! (:eccomment1) {Comment.create(ecomment)}
+    let (:dcomment) {{user_id: dudeObject.id, post_id:hcpost.id, comment: "DJesus sucks aling"}}
+    let! (:hccomment1) {Comment.create(dcomment)}
+    let (:ecomment) {{user_id: dudeObject.id, post_id:hcpost.id, comment: "DJesus su bowling"}}
+    let! (:eccomment1) {Comment.create(ecomment)}
 
 
 
     let(:yeah) {{title: "yeah" ,body: "The dude does not approve", user_id: dudeObject.id, group_id: bowling.id }}
     let!(:ghetto) {Post.create(yeah)}
-        let (:yeaha) {{user_id: dudeObject.id, post_id:ghetto.id, comment: "DJet bowling"}}
-        let! (:gccomment1) {Comment.create(yeaha)}
+    let (:yeaha) {{user_id: dudeObject.id, post_id:ghetto.id, comment: "DJet bowling"}}
+    let! (:gccomment1) {Comment.create(yeaha)}
 
 
     let(:woot) {{title: "woot", body: "The dude does not approve", user_id: dudeObject.id, group_id: bowling.id }}
